@@ -3,3 +3,4 @@ id_rsa.pub
 known_hosts
 known_hosts.old
 config 
+MyKeyPair.pem

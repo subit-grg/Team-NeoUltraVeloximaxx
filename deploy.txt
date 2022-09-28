@@ -1,0 +1,5 @@
+git bash 
+start JENKINS instance 
+ssh aws-ec2 
+run jenkins --version
+run sudo systemctl enable jenkins 
