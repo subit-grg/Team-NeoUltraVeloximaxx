@@ -14,6 +14,7 @@ The tools that will be used for this project would be Kubernetes and Terraform.
   - Terraform can be ran multiple times to automate the same application. 
  
 ## Multiple Environment Support
+For this project, we have been completing our work in different branches. This meant that each group member was required to have an designated branch for them to push all the work that was completed for deploying the application and - moving all of that into the main branch once everything is completed. 
 ## Running Costs 
 ## Trello Board
 ## Risk Assessment
