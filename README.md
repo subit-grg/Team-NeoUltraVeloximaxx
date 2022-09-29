@@ -7,7 +7,7 @@
 ## What tools will work for you best?
 The tools that will be used for this project would be Kubernetes and Terraform. 
 - Kubernetes will be used to deploy the Spring Pet Clinic application. 
-  - We had decided to use Kubernetes because as a group we decided that this will be an easier way to deploy the app and -  
+  - Kubernetes is going to be used because we decided that this will be an easier way to deploy the app due to it having the ability to run containers and a NGINX proxy.
   - Kubernetes can deploy applications anywhere and can be used on the cloud. 
 - Terraform will be used for the automation of the application. 
   - This was chosen because with Terraform you can create instances easily on Terraform which is handy for deploying the application. 
