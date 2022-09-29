@@ -1,9 +1,19 @@
 # QA DevOps Project 3: Team NeoUltraVeloximaxx
 #### Group Members: Toluwalase Rotimi, Tasnim Begum, Sibel Hassan and Subit Gurung
 ## Project Brief 
-- For this project we are required to deploy an functioning application with the use of one of the tools that we have learnt in our training. 
+- For this project we are required to deploy an functioning application with the use of the tools that we have learnt in our training. 
 - The application that we used for the project is the  Spring  Pet Clinic app and - we will be deploying the front end and back end of the app. 
 - The front end uses AngularJS and the backend is an API used by Java. 
 ## What tools will work for you best?
+The tools that will be used for this project would be Kubernetes and Terraform. 
+- Kubernetes will be used to deploy the Spring Pet Clinic application. 
+  - We had decided to use Kubernetes because as a group we decided that this will be an easier way to deploy the app and -  
+  - Kubernetes can deploy applications anywhere and can be used on the cloud. 
+- Terraform will be used for the automation of the application. 
+  - This was chosen because with Terraform you can create instances easily on Terraform which is handy for deploying the application. 
+  - Terraform can be ran multiple times to automate the same application. 
+ 
 ## Multiple Environment Support
 ## Running Costs 
+## Trello Board
+## Risk Assessment
