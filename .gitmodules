@@ -5,3 +5,6 @@
 [submodule "FinalSpecProject/spring-petclinic-rest"]
 	path = FinalSpecProject/spring-petclinic-rest
 	url = https://github.com/Sibel97/spring-petclinic-rest.git
+[submodule "FinalSpecProject/spring"]
+	path = FinalSpecProject/spring
+	url = https://github.com/Sibel97/spring-petclinic-angular.git
