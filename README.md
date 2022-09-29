@@ -12,9 +12,9 @@ The tools that will be used for this project would be Kubernetes and Terraform.
 - Terraform will be used for the automation of the application. 
   - This was chosen because with Terraform you can create instances easily on Terraform which is handy for deploying the application. 
   - Terraform can be ran multiple times to automate the same application. 
- 
 ## Multiple Environment Support
-For this project, we have been completing our work in different branches. This meant that each group member was required to have an designated branch for them to push all the work that was completed for deploying the application and - moving all of that into the main branch once everything is completed. 
-## Running Costs 
+For this project, we have been completing our work in different branches. This meant that each group member was required to have an designated branch for them to push all the work that was completed for deploying the application and - moving all of that into the main branch once everything is completed. How we can test the new features implemented to deploy the app would be to have a separate branch for testing and test all the code in that branch and if it works push this to the main branch. 
+## Running Costs
+The costs of this would mainly be the instances being used. We are using AWS to make the instances required for the project and - this requires payment which will be the main cost of the project. As of right now this is being paid for by QA so our team members will not need to pay for this. 
 ## Trello Board
 ## Risk Assessment
