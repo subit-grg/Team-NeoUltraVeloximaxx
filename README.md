@@ -1,5 +1,5 @@
 # QA DevOps Project 3: Team NeoUltraVeloximaxx
-Group Members: Toluwalase Rotimi, Tasnim Begum, Sibel Hassan and Subit Gurung
+#### Group Members: Toluwalase Rotimi, Tasnim Begum, Sibel Hassan and Subit Gurung
 ## Project Brief 
 - For this project we are required to deploy an functioning application with the use of one of the tools that we have learnt in our training. 
 - The application that we used for the project is the  Spring  Pet Clinic app and - we will be deploying the front end and back end of the app. 
