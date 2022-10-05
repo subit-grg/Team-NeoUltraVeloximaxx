@@ -15,11 +15,11 @@ pipeline {
       }
     }
 
-    stage('Create Environment '){
-      steps{
-        sh './FinalSpecProject/scripts/installs.sh'
-      }
-    }
+    // stage('Create Environment '){
+    //   steps{
+    //     sh './FinalSpecProject/scripts/installs.sh'
+    //   }
+    // }
 
     stage('Build Docker Images'){
       steps{
