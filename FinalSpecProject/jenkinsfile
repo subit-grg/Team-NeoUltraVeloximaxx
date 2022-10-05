@@ -1,0 +1,42 @@
+pipeline {
+  agent any
+  environment {
+    DOCKER_USERNAME = credentials('DOCKER_USERNAME')
+    DOCKER_PASSWORD = credentials('DOCKER_PASSWORD')
+
+    AWS_ACCESS_KEY = credentials('ACCESS_KEY')
+    AWS_SECRET_ACCESS_KEY = credentials('SECRET_ACCESS_KEY')
+  }
+
+  stages {
+    stage('Modify Scripts'){
+      steps{
+        sh 'chmod +x ./scripts/*'
+      }
+    }
+
+    stage('Create Environment '){
+      steps{
+        sh './scripts/installs.sh'
+      }
+    }
+
+    stage('Build Docker Images'){
+      steps{
+        sh './scripts/images.sh'
+      }
+    }
+
+    stage('Configue AWS'){
+      steps{
+        sh './scripts/aws-config.sh'
+      }
+    }
+
+    stage('Kubernetes'){
+      steps{
+        sh './scripts/kubernetes.sh'
+      }
+    }
+  }
+}
