@@ -8,8 +8,8 @@ spec:
   type: ClusterIP
   ports:
     - protocol: TCP
-      port: 4200
-      targetPort: 4200
+      port: 8080
+      targetPort: 8080
   selector:
     app: frontend
 ---
@@ -33,4 +33,4 @@ spec:
       - name: front-end
         image: sibel97/frontend
         ports:
-        - containerPort: 4200
+        - containerPort: 8080
