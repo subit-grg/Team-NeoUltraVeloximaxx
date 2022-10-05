@@ -17,25 +17,25 @@ pipeline {
 
     stage('Create Environment '){
       steps{
-        sh './scripts/installs.sh'
+        sh './FinalSpecProject/scripts/installs.sh'
       }
     }
 
     stage('Build Docker Images'){
       steps{
-        sh './scripts/images.sh'
+        sh './FinalSpecProject/scripts/images.sh'
       }
     }
 
     stage('Configue AWS'){
       steps{
-        sh './scripts/aws-config.sh'
+        sh './FinalSpecProject/scripts/aws-config.sh'
       }
     }
 
     stage('Kubernetes'){
       steps{
-        sh './scripts/kubernetes.sh'
+        sh './FinalSpecProject/scripts/kubernetes.sh'
       }
     }
   }
