@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Modify Scripts'){
       steps{
-        sh 'chmod +x ./scripts/*'
+        sh 'chmod +x ./FinalSpecProject/scripts/*'
       }
     }
 
