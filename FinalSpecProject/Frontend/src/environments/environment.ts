@@ -23,5 +23,5 @@
 
 export const environment = {
   production: false,
-  REST_API_URL: 'http://localhost:80/petclinic/api/'
+  REST_API_URL: 'http://aece89c7f862c44249fada1eca92927c-1464856891.eu-west-2.elb.amazonaws.com:80/petclinic/api/'
 };

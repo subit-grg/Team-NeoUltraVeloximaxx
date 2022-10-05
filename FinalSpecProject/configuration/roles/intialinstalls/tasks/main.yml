@@ -1,0 +1,15 @@
+---
+# tasks file for intialinstalls
+---
+# tasks file for initialinstalls
+- name: "update apt packages"
+  apt:
+    upgrade: yes
+    update_cache: yes
+
+- name: "install git"
+  apt:
+    name:
+    - git
+    state: latest
+    update_cache: true
