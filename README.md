@@ -17,6 +17,8 @@ For this project, we have been completing our work in different branches. This m
 ## Running Costs
 The costs of this would mainly be the instances being used. We are using AWS to make the instances required for the project and - this requires payment which will be the main cost of the project. As of right now this is being paid for by QA so our team members will not need to pay for this. 
 ## Trello Board
+![image](https://user-images.githubusercontent.com/60227889/194340411-7d5c8df2-9e84-43eb-9be8-1ab79f8fea42.png)
+
 ## Risk Assessment
 Risk Assessement using excel showing the potential threats to the project. Encountered new potential threats as we progressed in the project and updated as we went along. It was important to mitigate the risk running throughout the project to ensure we were aware of potential risks and stayed on top of threats.
 
