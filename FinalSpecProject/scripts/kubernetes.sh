@@ -1,8 +1,8 @@
-kubectl apply -f kubernetes/pass.yaml 
-kubectl apply -f kubernetes/backend.yaml  
-kubectl apply -f kubernetes/frontend.yaml  
-kubectl apply -f kubernetes/mysql.yaml  
-kubectl apply -f kubernetes/nginx-configmap.yaml  
-kubectl apply -f kubernetes/nginx.yaml  
+kubectl apply -f ./FinalSpecProject/kubernetes/pass.yaml 
+kubectl apply -f ./FinalSpecProject.kubernetes/backend.yaml  
+kubectl apply -f ./FinalSpecProject.kubernetes/frontend.yaml  
+kubectl apply -f ./FinalSpecProject/kubernetes/mysql.yaml  
+kubectl apply -f ./FinalSpecProject/kubernetes/nginx-configmap.yaml  
+kubectl apply -f ./FinalSpecProject/kubernetes/nginx.yaml  
 sleep 10
 kubectl get services 
