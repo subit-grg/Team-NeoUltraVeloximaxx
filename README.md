@@ -18,3 +18,5 @@ For this project, we have been completing our work in different branches. This m
 The costs of this would mainly be the instances being used. We are using AWS to make the instances required for the project and - this requires payment which will be the main cost of the project. As of right now this is being paid for by QA so our team members will not need to pay for this. 
 ## Trello Board
 ## Risk Assessment
+![image](https://user-images.githubusercontent.com/96881229/194273960-44864674-ded0-4668-9a9e-170e544ba74f.png)
+
