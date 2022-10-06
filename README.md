@@ -14,8 +14,12 @@ The tools that will be used for this project would be Kubernetes and Ansible.
   - Able to install Docker which is required to make the images. 
 ## Multiple Environment Support
 For this project, we have been completing our work in different branches. This meant that each group member was required to have an designated branch for them to push all the work that was completed for deploying the application and - moving all of that into the main branch once everything is completed. How we can test the new features implemented to deploy the app would be to have a separate branch for testing and test all the code in that branch and if it works push this to the main branch. 
-## Running Costs
-The costs of this would mainly be the instances being used. We are using AWS to make the instances required for the project and - this requires payment which will be the main cost of the project. As of right now this is being paid for by QA so our team members will not need to pay for this. 
+## Costs Estimation
+Without aws permissions we used an estimation calculator to give us a rough guide as to how much the project would cost to deploy and keep running. This includes the cost of our instances, cluster and vpc. The monthly cost for this would be 103.71 USD.
+
+![image](https://user-images.githubusercontent.com/60227889/194342999-163b3ea3-5946-4656-b42e-b0fc60efdee6.png)
+
+
 ## Trello Board
 A Trello Board was made to allow us to keep track of our project. We had made a Kanban Board to show the different tasks that needed to be completed for the project and - show what tasks have been completed and outstanding. This would be presented in our morning stand up meetings to determine which tasks will be completed for the day. 
 
