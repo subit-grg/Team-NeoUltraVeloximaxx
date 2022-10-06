@@ -5,18 +5,20 @@
 - The application that we used for the project is the  Spring  Pet Clinic app and - we will be deploying the front end and back end of the app. 
 - The front end uses AngularJS and the backend is an API used by Java. 
 ## What tools will work for you best?
-The tools that will be used for this project would be Kubernetes and Terraform. 
+The tools that will be used for this project would be Kubernetes and Ansible. 
 - Kubernetes will be used to deploy the Spring Pet Clinic application. 
   - Kubernetes is going to be used because we decided that this will be an easier way to deploy the app due to it having the ability to run containers and a NGINX proxy.
   - Kubernetes can deploy applications anywhere and can be used on the cloud. 
-- Terraform will be used for the automation of the application. 
-  - This was chosen because with Terraform you can create instances easily on Terraform which is handy for deploying the application. 
-  - Terraform can be ran multiple times to automate the same application. 
+- Ansible will be used for the automation of the application. 
+  - Able to create different environments for the application to be used on. 
+  - Able to install Docker which is required to make the images. 
 ## Multiple Environment Support
 For this project, we have been completing our work in different branches. This meant that each group member was required to have an designated branch for them to push all the work that was completed for deploying the application and - moving all of that into the main branch once everything is completed. How we can test the new features implemented to deploy the app would be to have a separate branch for testing and test all the code in that branch and if it works push this to the main branch. 
 ## Running Costs
 The costs of this would mainly be the instances being used. We are using AWS to make the instances required for the project and - this requires payment which will be the main cost of the project. As of right now this is being paid for by QA so our team members will not need to pay for this. 
 ## Trello Board
+A Trello Board was made to allow us to keep track of our project. We had made a Kanban Board to show the different tasks that needed to be completed for the project and - show what tasks have been completed and outstanding. This would be presented in our morning stand up meetings to determine which tasks will be completed for the day. 
+
 ![image](https://user-images.githubusercontent.com/60227889/194340411-7d5c8df2-9e84-43eb-9be8-1ab79f8fea42.png)
 
 ## Risk Assessment
